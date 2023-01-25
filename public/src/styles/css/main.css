@@ -141,4 +141,43 @@ section {
 .start-ups .grid .start-ups-items .start-ups-img img {
   width: 25rem;
   height: auto;
+}
+
+.sticky-nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+footer {
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding-top: 1rem;
+}
+footer .grid {
+  margin: 0;
+  padding: 0;
+}
+footer h3 {
+  text-align: center;
+  text-transform: uppercase;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+footer ul li {
+  padding-left: 1rem;
+  font-size: 2rem;
+}
+footer ul li a {
+  color: rgb(255, 255, 255);
+}
+footer ul li a:hover {
+  color: rgba(0, 0, 0, 0.8);
+}
+footer .copyright {
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
