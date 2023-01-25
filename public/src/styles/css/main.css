@@ -19,6 +19,12 @@ ul {
 /* Brands Colors */
 /* SOCIAL COLORS */
 /* GRADIENT */
+section {
+  background-image: radial-gradient(circle 610px at 5.2% 51.6%, rgb(5, 8, 114) 0%, rgb(7, 3, 53) 97.5%);
+  width: 100%;
+  height: 100%;
+}
+
 .btn {
   display: inline-block;
   padding: 0.5rem 1rem;
@@ -63,6 +69,8 @@ ul {
   text-align: center;
   justify-content: space-evenly;
   padding-top: 0.1rem;
+  flex-wrap: wrap;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
 }
 .services .grid .services-items .services-item {
   width: 30%;
@@ -73,4 +81,40 @@ ul {
   color: rgb(255, 255, 255);
   padding: 0.5rem;
   font-size: 3rem;
+}
+
+.about-us .grid {
+  background: rgb(255, 255, 255);
+}
+.about-us .grid .about-avatar {
+  grid-column: 1/-1;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 2rem;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.about-us .grid .about-avatar .about-card {
+  background-image: radial-gradient(circle farthest-corner at 92.3% 71.5%, rgb(83, 138, 214) 0%, rgb(134, 231, 214) 90%);
+  margin-bottom: 1rem;
+  border-radius: 10%;
+  height: auto;
+  width: 18rem;
+  padding: 2rem 0;
+}
+.about-us .grid .about-avatar .about-card .img {
+  background-image: radial-gradient(circle 610px at 5.2% 51.6%, rgb(5, 8, 114) 0%, rgb(7, 3, 53) 97.5%);
+  display: flex;
+  justify-content: center;
+}
+.about-us .grid .about-avatar .about-card img {
+  width: 10rem;
+  height: 10rem;
+}
+.about-us .grid .about-avatar .about-card h2 {
+  padding: 1rem 2rem;
+}
+.about-us .grid .about-avatar .about-card p {
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
