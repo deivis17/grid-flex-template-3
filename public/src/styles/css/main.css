@@ -102,6 +102,7 @@ section {
   height: auto;
   width: 18rem;
   padding: 2rem 0;
+  text-align: center;
 }
 .about-us .grid .about-avatar .about-card .img {
   background-image: radial-gradient(circle 610px at 5.2% 51.6%, rgb(5, 8, 114) 0%, rgb(7, 3, 53) 97.5%);
@@ -117,4 +118,27 @@ section {
 }
 .about-us .grid .about-avatar .about-card p {
   text-align: center;
+}
+
+.start-ups .grid .start-ups-items {
+  grid-column: 1/-1;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+.start-ups .grid .start-ups-items .start-ups-text {
+  grid-column: 1/7;
+  width: 20%;
+}
+.start-ups .grid .start-ups-items .start-ups-text h2 {
+  margin: 1rem;
+}
+.start-ups .grid .start-ups-items .start-ups-img {
+  grid-column: 1/6;
+  padding-top: 2rem;
+}
+.start-ups .grid .start-ups-items .start-ups-img img {
+  width: 25rem;
+  height: auto;
 }/*# sourceMappingURL=main.css.map */
