@@ -22,11 +22,19 @@
 </head>
 
 <body>
+  <div class="cookies" id="cookies">
+    <div class="closecookiesbtn" id="clickme">
+      <i class="fa-solid fa-xmark" id="closecookiesbtn"></i>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus molestiae id rem odio ullam placeat iusto officia quia consectetur. Ullam similique aperiam totam accusamus culpa repellendus natus minima vero dignissimos incidunt, perspiciatis odio quas alias ex autem facere soluta odit quibusdam. Architecto aspernatur illo eaque accusantium unde omnis totam quae.</p>
+  </div>
+
   <div class="sticky-nav">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light tranparent">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">Navbar Example</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -38,18 +46,27 @@
               <a class="nav-link" href="#">Link</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
                 Dropdown
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="#">Action</a></li>
                 <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
                 <li><a class="dropdown-item" href="#">Something else here</a></li>
               </ul>
             </li>
             <li class="nav-item">
               <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link access" href="#" id="#showform">Sign In</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link access" href="#">Login</a>
             </li>
           </ul>
           <form class="d-flex">
@@ -60,10 +77,41 @@
       </div>
     </nav>
   </div>
+
+  <div class="form" id="formsignin">
+    <form>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+      </div>
+      <div class="mb-3">
+        <label for="inputPassword5" class="form-label">Password</label>
+        <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+        <div id="passwordHelpBlock" class="form-text">
+          Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special
+          characters, or emoji.
+        </div>
+      </div>
+      <div class="mb-3">
+        <label for="inputPassword5" class="form-label">Password</label>
+        <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+        <div id="passwordHelpBlock" class="form-text">
+          Your password must be the seem.
+        </div>
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+  
   <header>
     <div class="grid">
       <div class="text-header">
-        <h1>Convertimos tus sueños en realidad</h1>
+        <h1>We make your dreams in reality!</h1>
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
         <a href="" class="btn">Work with us!</a>
       </div>
@@ -72,6 +120,8 @@
       </div>
     </div>
   </header>
+
+
 
   <main>
     <section class="services">
@@ -101,29 +151,29 @@
 
     <section class="about-us">
       <div class="grid">
-       <div class="about-avatar">
-        <div class="about-card">
-          <div class="img">
-            <img src="../img/undraw_pic_profile_re_7g2h.svg" alt="">
+        <div class="about-avatar">
+          <div class="about-card">
+            <div class="img">
+              <img src="../img/undraw_pic_profile_re_7g2h.svg" alt="">
+            </div>
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>Lorem ipsum dolor sit.</p>
           </div>
-          <h2>Lorem, ipsum dolor.</h2>
-          <p>Lorem ipsum dolor sit.</p>
-        </div>
-        <div class="about-card">
-          <div class="img">
-            <img src="../img/undraw_female_avatar_efig.svg" alt="">
+          <div class="about-card">
+            <div class="img">
+              <img src="../img/undraw_female_avatar_efig.svg" alt="">
+            </div>
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>Lorem ipsum dolor sit.</p>
           </div>
-          <h2>Lorem, ipsum dolor.</h2>
-          <p>Lorem ipsum dolor sit.</p>
-        </div>
-        <div class="about-card">
-          <div class="img">
-            <img src="../img/undraw_profile_pic_re_iwgo.svg" alt="">
+          <div class="about-card">
+            <div class="img">
+              <img src="../img/undraw_profile_pic_re_iwgo.svg" alt="">
+            </div>
+            <h2>Lorem, ipsum dolor.</h2>
+            <p>Lorem ipsum dolor sit.</p>
           </div>
-          <h2>Lorem, ipsum dolor.</h2>
-          <p>Lorem ipsum dolor sit.</p>
         </div>
-       </div>
       </div>
     </section>
 
@@ -132,15 +182,24 @@
         <div class="start-ups-items">
           <div class="start-ups-text">
             <h2>01 Start Up</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima saepe nemo labore error reprehenderit! Eius placeat quasi totam animi corporis Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, temporibus.</p>
+            <hr/>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima saepe nemo labore error reprehenderit!
+              Eius placeat quasi totam animi corporis Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Obcaecati, temporibus.</p>
           </div>
           <div class="start-ups-text">
             <h2>02 Start Up</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima saepe nemo labore error reprehenderit! Eius placeat quasi totam animi corporis Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, temporibus.</p>
+            <hr/>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima saepe nemo labore error reprehenderit!
+              Eius placeat quasi totam animi corporis Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Obcaecati, temporibus.</p>
           </div>
           <div class="start-ups-text">
             <h2>03 Start Up</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima saepe nemo labore error reprehenderit! Eius placeat quasi totam animi corporis Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati, temporibus.</p>
+            <hr/>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima saepe nemo labore error reprehenderit!
+              Eius placeat quasi totam animi corporis Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Obcaecati, temporibus.</p>
           </div>
           <div class="start-ups-img">
             <img src="../img/undraw_experience_design_re_dmqq.svg" alt="">
@@ -156,7 +215,7 @@
           <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
           <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
           <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
-          <li><a href=""><i class="fa-brands fa-twitter"></i></a></li> 
+          <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
         </ul>
       </div>
       <div class="copyright">

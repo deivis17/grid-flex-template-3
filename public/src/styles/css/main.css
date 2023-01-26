@@ -46,7 +46,7 @@ section {
 .grid .text-header {
   grid-column: 1/7;
   margin-top: 13rem;
-  margin-left: 1rem;
+  margin-left: 2rem;
 }
 .grid .img-header {
   grid-column: 7/12;
@@ -147,6 +147,55 @@ section {
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.nav-item .access {
+  margin-left: 3rem;
+}
+
+.form-active {
+  display: block;
+}
+
+.form {
+  display: none;
+  position: fixed;
+  top: 4rem;
+  left: 26rem;
+  width: 40%;
+  background: rgb(255, 255, 255);
+  height: auto;
+  border-radius: 10%;
+  padding: 2rem;
+}
+.form form {
+  height: 50%;
+}
+
+.show {
+  display: block;
+}
+
+.cookies {
+  position: fixed;
+  top: 24rem;
+  padding: 1rem 2rem;
+  width: 100%;
+  height: 20rem;
+  background: rgba(255, 255, 255, 0.5);
+}
+.cookies i {
+  position: relative;
+  left: 63rem;
+}
+
+.hide {
+  display: none;
+}
+
+.closecookiesbtn {
+  cursor: pointer;
 }
 
 footer {
