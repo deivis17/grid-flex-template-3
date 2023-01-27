@@ -4,26 +4,16 @@ const showForm = document.querySelector('#showform');
 const formsignin = document.querySelector('#formsignin');
 
 
-clickme.addEventListener('click', changeColor);
-showForm.addEventListener('click', console.log('funcionando'));
+clickme.addEventListener('click', hideCookies);
+showForm.addEventListener('click', signIn);
 
 function signIn(){
     form.classList.toggle('show');
 }
 
-function changeColor(){
+function hideCookies(){
     cookies.classList.toggle('hide');
 }
-
-
-
-
-
-
-
-
-
-
 
 ScrollReveal().reveal('.services', {delay:500});
 ScrollReveal().reveal('.about-us', {delay:500});
